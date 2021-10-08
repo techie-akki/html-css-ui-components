@@ -3,6 +3,9 @@
 * {
   box-sizing: border-box;
 }
+*:not(.fa) {
+  font-family: "Open Sans", sans-serif;
+}
 
 body {
   background-color: #f7f8fc;
@@ -25,6 +28,7 @@ a {
   background-color: #fff;
   border-radius: 3px;
   border: 15px solid #dce7ff;
+  padding: 10px;
   width: 1000px;
   max-width: 100%;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
@@ -36,12 +40,17 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  margin: auto;
   padding: 40px;
   flex: 1.5;
 }
+.smal {
+  margin-left: 150px;
+}
 
 .form-control {
-  margin: 10px 0;
+  margin: auto;
   width: 100%;
 }
 
@@ -57,6 +66,7 @@ input:not([type="checkbox"]) {
   border-radius: 3px;
   font-family: inherit;
   font-size: 15px;
+
   padding: 10px;
   width: 100%;
 }
@@ -66,7 +76,8 @@ input:not([type="checkbox"]) {
   justify-content: space-between;
   font-size: 14px;
   width: 100%;
-  margin-bottom: 15px;
+
+  margin-top: 15px;
 }
 
 .checkbox-container label {
@@ -91,7 +102,7 @@ input:not([type="checkbox"]) {
   font-weight: bold;
   font-size: 14px;
   padding: 10px;
-  margin: 20px 0;
+  margin: 15px 0px;
   width: 100%;
 }
 
